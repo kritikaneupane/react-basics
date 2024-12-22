@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        background-color: rgb(251, 250, 250);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="h-100 d-flex w-100 m-auto">
+      <div class="container mb-5">
+        <!--nav bar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+              src=""
+              alt="logo"
+              width="30"
+              />
+            </a>
+          </div>
+        </nav>
+        <!--No Bookmark-->
+        <div 
+        class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5"
+        >
+        <svg class="bi mt-5 mb-3" width="48" height="48">
+          <use xlink:href="#check2-circle"/>
+
+        </svg>
+        <h1 class="text-body-emphasis">No Bookmarks found...</h1>
+        <p class="col-lg-6 mx-auto mb-4">
+          Bookmark a blog to get started.You can book mark a blog form
+          <a class ="text-decoration-none" href="/blogs">here</a>
+
+        </p>
+        </div>
+        </div>
+        <!--carousel-->
+        <div>
+
+        </div>
+        <!--blogs list-->
+        <div class="h4 mt-4">Featured Blogs</div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-2">
+    >
+        </div>
+
+        </div>
+        <!--pagination-->
+
+        <div class="d flex align-items-center justify-content-center"></div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+        
+          <div class="container-fluid">
+            <a class="d-inline-block align-text-top"> Home </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#">contact</a>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">catagories</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div
+          id="carouselExampleIndicators1"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators1"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators1"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators1"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="lakee.jpg" class="d-block w-100" alt="lakee" />
+            </div>
+            <div class="carousel-item">
+              <img src="lakee.jpg" class="d-block w-100" alt="lakee" />
+            </div>
+            <div class="carousel-item">
+              <img src="lakee.jpg" class="d-block w-100" alt="lakee" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+          <!--footer-->
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                
+              <a class="text-body-secondary" href="#"></a>
+              <i class="ms-3"></i>
+              <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="text-body-secondary"
+                href="#"></a>
+                <i class="ms-3"></i>
+                
+              </li>
+              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </footer>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"
+      ></script>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        const myCarouselElement = document.querySelector(
+          "##carouselExampleIndicators1"
+        );
+
+        const carousel = new bootstrap.Carousel("#carouselExampleIndicators1", {
+          interval: 1000,
+          touch: false,
+        });
+        
+      </script>
+    </div>
+  </body>
+</html>
